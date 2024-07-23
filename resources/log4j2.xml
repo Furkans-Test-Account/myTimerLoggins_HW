@@ -7,7 +7,7 @@
     <Appenders>
         <!-->Dinamik olarak log file name verme<-->
         <RollingFile name="RollingFileAppender"
-                     fileName="${filename}/${date:HH-mm-dd-MM-yy}.log
+                     fileName="${filename}/${date:HH-mm-dd-MM-yy}.log"
                      filePattern="${filename}/timer-%d{dd-MM-yy}-%i.log">
             <PatternLayout>
                 <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
