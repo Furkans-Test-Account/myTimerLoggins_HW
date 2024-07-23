@@ -1,0 +1,3 @@
+2024-07-23 21:09:13 DEBUG myTimerLoggings - This is a DEBUG message
+2024-07-23 21:09:13 INFO  myTimerLoggings - This is an INFO message
+2024-07-23 21:09:13 ERROR myTimerLoggings - This is an ERROR message
